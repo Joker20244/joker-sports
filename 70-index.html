@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joker Sports | مواعيد مباريات الأسبوع</title>
+<meta name="description" content="Joker Sports - جدول مباريات كرة القدم الأسبوعي: المواعيد بتوقيت القاهرة، القنوات المعلنة، الحالة المباشرة، والتشكيلات عند نشرها.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <img src="icon.svg" alt="شعار Joker Sports" class="brand-logo">
+    <div class="brand-text">
+      <h1>Joker Sports</h1>
+      <p class="tagline">كل مباريات الأسبوع في مكان واحد</p>
+    </div>
+  </div>
+  <div class="header-meta">
+    <span class="tz-pill" id="tz-pill">بتوقيت القاهرة</span>
+    <span class="freshness" id="freshness"></span>
+  </div>
+</header>
+
+<div class="notice-bar" id="notice-bar" hidden></div>
+
+<nav class="filters" id="filters">
+  <div class="chips" id="league-chips"></div>
+  <div class="filters-row">
+    <input type="search" id="team-search" placeholder="ابحث عن فريق..." aria-label="ابحث عن فريق">
+    <label class="fav-toggle">
+      <input type="checkbox" id="fav-only">
+      <span>⭐ مباريات ريال مدريد وبرشلونة فقط</span>
+    </label>
+  </div>
+</nav>
+
+<main id="matches" class="matches" aria-live="polite">
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    <p>بنجهّز جدول المباريات...</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p><strong>Joker Sports</strong> — بيانات المباريات من مصادر مجانية معلنة (ESPN وTheSportsDB)، تُحدَّث تلقائيًا كل يوم.</p>
+  <p>اسم المعلق وجودة البث لا تنشرهما المصادر المجانية حاليًا، فتظهر «غير معلن» بدل أي تخمين. القنوات المعروضة مُعلَّمة بوضوح بأنها لقنوات السوق الأمريكي «أمريكا» كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من المصدر المجاني.</p>
+  <p id="footer-sources"></p>
+</footer>
+
+<template id="match-card-tpl">
+  <article class="match-card">
+    <div class="league-line">
+      <span class="league-name"></span>
+      <span class="status-pill"></span>
+    </div>
+    <div class="teams-line">
+      <div class="team home">
+        <img class="team-logo" alt="">
+        <span class="team-name"></span>
+      </div>
+      <div class="score-box">
+        <span class="score"></span>
+        <span class="kickoff"></span>
+      </div>
+      <div class="team away">
+        <img class="team-logo" alt="">
+        <span class="team-name"></span>
+      </div>
+    </div>
+    <div class="info-grid">
+      <div class="info-item channels"><span class="info-label">القنوات</span><span class="info-value"></span></div>
+      <div class="info-item commentator"><span class="info-label">المعلق</span><span class="info-value"></span></div>
+      <div class="info-item quality"><span class="info-label">الجودة</span><span class="info-value"></span></div>
+      <div class="info-item venue"><span class="info-label">الملعب</span><span class="info-value"></span></div>
+    </div>
+    <details class="lineups" hidden>
+      <summary>التشكيل</summary>
+      <div class="lineups-body"></div>
+    </details>
+    <div class="source-line"></div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>
