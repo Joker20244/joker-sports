@@ -1,0 +1,14 @@
+{
+  "name": "Joker Sports",
+  "short_name": "Joker Sports",
+  "description": "مواعيد مباريات كرة القدم الأسبوعية: القنوات، الحالة، والتشكيلات عند نشرها.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b1530",
+  "theme_color": "#0b1530",
+  "icons": [
+    {"src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}
