@@ -209,3 +209,22 @@ body {
   .cards { grid-template-columns: 1fr; }
 }
 .channel-note a { color: inherit; text-decoration: underline; }
+
+/* Official provider directory and match-specific viewing routes */
+.watch-hub,.watch-shell{max-width:1280px;margin:24px auto;padding:0 clamp(14px,4vw,44px)}
+.watch-intro{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.watch-intro h2{font-family:Cairo,sans-serif;margin:6px 0;font-size:clamp(1.4rem,3vw,2rem)}
+.watch-intro p,.watch-card p{color:var(--ink-dim);line-height:1.8}
+.eyebrow{color:#75e4a6;font-weight:700;font-size:.85rem}
+.watch-btn{display:inline-block;border:1px solid var(--accent);border-radius:12px;background:var(--accent-soft);color:#ffd6b5;padding:12px 18px;text-decoration:none;font-weight:700;line-height:1.5}
+.watch-btn:hover{background:#59331f}.watch-btn:focus-visible,.provider-shortcuts a:focus-visible{outline:3px solid white;outline-offset:3px}
+.view-warning{background:#1b2945;border-right:3px solid #ffbf69;padding:14px 16px;border-radius:8px;color:#e1e7f5;line-height:1.8;font-size:.95rem}
+.provider-shortcuts{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0}.provider-shortcuts a{border:1px solid var(--card-edge);background:var(--card);color:var(--ink);padding:10px 14px;border-radius:999px;text-decoration:none;line-height:1.4}
+.match-watch{margin:16px 0 0;width:100%;text-align:center}
+.watch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr));gap:16px;margin:22px 0}
+.watch-card{border:1px solid var(--card-edge);background:var(--card);padding:22px;border-radius:18px;scroll-margin-top:20px}
+.watch-card.selected{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.watch-card h2{font:700 1.3rem Cairo,sans-serif;margin:12px 0}.watch-card .provider-tag{color:#87e5b0;font-size:.85rem}.watch-card a.source-ref{display:block;color:#bac9ee;margin-top:15px;font-size:.85rem;text-underline-offset:4px}
+.channel-number{display:inline-block;background:#29386a;border:1px solid #57649b;padding:6px 10px;border-radius:8px;margin:4px;color:white;text-decoration:none}
+.match-context{padding:22px;background:linear-gradient(120deg,#243055,#14224a);border:1px solid #455987;border-radius:18px;margin:20px 0}.match-context h1{font-family:Cairo,sans-serif;font-size:clamp(1.3rem,3vw,1.9rem)}
+.watch-shell a{overflow-wrap:anywhere}.watch-note{color:var(--ink-dim);line-height:1.9}.watch-shell details{margin:28px 0;line-height:1.9}.watch-shell details a{color:#bfcfff}
