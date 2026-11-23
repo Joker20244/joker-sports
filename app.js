@@ -202,6 +202,11 @@
     }
 
     tpl.querySelector('.channels .info-value').outerHTML = channelHtml(m);
+    var watchLink = document.createElement('a');
+    watchLink.className = 'watch-btn match-watch';
+    watchLink.href = 'watch.html?match=' + encodeURIComponent(m.id);
+    watchLink.textContent = 'صفحة المباراة وطرق المشاهدة ←';
+    card.appendChild(watchLink);
 
     var commEl = tpl.querySelector('.commentator .info-value');
     if (m.commentator) commEl.textContent = m.commentator;
