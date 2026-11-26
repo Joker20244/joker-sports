@@ -1,5 +1,5 @@
 {
- "generatedAtUtc": "2026-11-25T14:45:43Z",
+ "generatedAtUtc": "2026-11-26T14:10:43Z",
  "windowDays": 8,
  "displayTimezone": "Africa/Cairo",
  "leagues": [
@@ -40,7 +40,7 @@
   }
  ],
  "counts": {
-  "matches": 69
+  "matches": 60
  },
  "notes": [
   "المعلق وجودة البث لا تعلنهما مصادر البيانات المدمجة (ESPN وTheSportsDB)، فيظهران كـ«غير معلن» بدل التخمين.",
@@ -49,490 +49,6 @@
  ],
  "errors": [],
  "matches": [
-  {
-   "id": "tsdb-2561156",
-   "league": {
-    "slug": "egy.1",
-    "name": "Egyptian Premier League",
-    "nameAr": "الدوري المصري الممتاز"
-   },
-   "kickoffUtc": "2026-11-25T15:00:00Z",
-   "status": {
-    "state": "pre",
-    "detail": null,
-    "completed": false
-   },
-   "home": {
-    "name": "Tala'ea El Gaish",
-    "nameAr": null,
-    "abbr": null,
-    "logo": "https://r2.thesportsdb.com/images/media/team/badge/a4scm31589807423.png",
-    "score": null,
-    "winner": null,
-    "favorite": false
-   },
-   "away": {
-    "name": "Modern Sport",
-    "nameAr": null,
-    "abbr": null,
-    "logo": "https://r2.thesportsdb.com/images/media/team/badge/larnky1729784569.png",
-    "score": null,
-    "winner": null,
-    "favorite": false
-   },
-   "venue": "Gehaz El Reyada Stadium",
-   "broadcasts": [],
-   "broadcastNote": "مصدر مجاني محدود: القنوات والتشكيلات غير متاحة للدوري المصري حاليًا، وقد تكون قائمة المباريات غير مكتملة.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "TheSportsDB (free)",
-    "url": "https://www.thesportsdb.com/api/v1/json/123/eventsnextleague.php?id=4829"
-   },
-   "partialData": true
-  },
-  {
-   "id": "espn-401915378",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T17:45Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Sabah FK",
-    "nameAr": null,
-    "abbr": "SAB",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Barcelona",
-    "nameAr": "برشلونة",
-    "abbr": "BAR",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "score": "0",
-    "winner": false,
-    "favorite": true
-   },
-   "venue": "Baku Olympic Stadium",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915293",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T17:45Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Slavia Prague",
-    "nameAr": "سلافيا براغ",
-    "abbr": "SLP",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Villarreal",
-    "nameAr": "فياريال",
-    "abbr": "VIL",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Fortuna Arena",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915291",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Atlético Madrid",
-    "nameAr": null,
-    "abbr": "ATM",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Viking FK",
-    "nameAr": null,
-    "abbr": "VFK",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Riyadh Air Metropolitano",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915292",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Club Brugge",
-    "nameAr": "كلوب بروج",
-    "abbr": "BRU",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Liverpool",
-    "nameAr": "ليفربول",
-    "abbr": "LIV",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Jan Breydel Stadium",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915376",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Internazionale",
-    "nameAr": null,
-    "abbr": "INT",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "VfB Stuttgart",
-    "nameAr": "شتوتغارت",
-    "abbr": "VFB",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "San Siro",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915377",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Lille",
-    "nameAr": "ليل",
-    "abbr": "LILL",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Bayern Munich",
-    "nameAr": "بايرن ميونخ",
-    "abbr": "MUN",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Decathlon Arena - Stade Pierre-Mauroy",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915374",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Paris Saint-Germain",
-    "nameAr": "باريس سان جيرمان",
-    "abbr": "PSG",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "AS Roma",
-    "nameAr": null,
-    "abbr": "ROMA",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Parc des Princes",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915375",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Shakhtar Donetsk",
-    "nameAr": null,
-    "abbr": "SHK",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Fenerbahce",
-    "nameAr": "فنربخشة",
-    "abbr": "FEN",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Stamford Bridge",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
-  {
-   "id": "espn-401915373",
-   "league": {
-    "slug": "uefa.champions",
-    "name": "UEFA Champions League",
-    "nameAr": "دوري أبطال أوروبا"
-   },
-   "kickoffUtc": "2026-11-25T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Sporting CP",
-    "nameAr": "سبورتنغ",
-    "abbr": "SCP",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Manchester United",
-    "nameAr": "مانشستر يونايتد",
-    "abbr": "MAN",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Estádio José Alvalade",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=200"
-   }
-  },
   {
    "id": "espn-401884720",
    "league": {
@@ -3491,6 +3007,48 @@
    "source": {
     "name": "ESPN",
     "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261202&limit=200"
+   }
+  },
+  {
+   "id": "espn-401878749",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-03T20:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Tottenham Hotspur",
+    "nameAr": "توتنهام",
+    "abbr": "TOT",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Fulham",
+    "nameAr": "فولهام",
+    "abbr": "FUL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Tottenham Hotspur Stadium",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261203&limit=200"
    }
   }
  ]
