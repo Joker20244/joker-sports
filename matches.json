@@ -1,5 +1,5 @@
 {
- "generatedAtUtc": "2026-11-26T14:10:43Z",
+ "generatedAtUtc": "2026-11-27T14:08:19Z",
  "windowDays": 8,
  "displayTimezone": "Africa/Cairo",
  "leagues": [
@@ -40,7 +40,7 @@
   }
  ],
  "counts": {
-  "matches": 60
+  "matches": 64
  },
  "notes": [
   "المعلق وجودة البث لا تعلنهما مصادر البيانات المدمجة (ESPN وTheSportsDB)، فيظهران كـ«غير معلن» بدل التخمين.",
@@ -1103,14 +1103,7 @@
     "favorite": false
    },
    "venue": "Stade Océane",
-   "broadcasts": [
-    {
-     "media": "beIn Sports",
-     "type": "TV",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
+   "broadcasts": [],
    "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
    "commentator": null,
    "quality": null,
@@ -1152,14 +1145,7 @@
     "favorite": false
    },
    "venue": "Stade Marie-Marvingt",
-   "broadcasts": [
-    {
-     "media": "beIn Sports",
-     "type": "TV",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
+   "broadcasts": [],
    "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
    "commentator": null,
    "quality": null,
@@ -1201,14 +1187,7 @@
     "favorite": false
    },
    "venue": "Allianz Riviera",
-   "broadcasts": [
-    {
-     "media": "beIn Sports",
-     "type": "TV",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
+   "broadcasts": [],
    "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
    "commentator": null,
    "quality": null,
@@ -1250,14 +1229,7 @@
     "favorite": false
    },
    "venue": "Parc des Princes",
-   "broadcasts": [
-    {
-     "media": "beIn Sports",
-     "type": "TV",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
+   "broadcasts": [],
    "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
    "commentator": null,
    "quality": null,
@@ -3049,6 +3021,188 @@
    "source": {
     "name": "ESPN",
     "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261203&limit=200"
+   }
+  },
+  {
+   "id": "espn-401884718",
+   "league": {
+    "slug": "ger.1",
+    "name": "Bundesliga",
+    "nameAr": "الدوري الألماني"
+   },
+   "kickoffUtc": "2026-12-04T19:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Bayern Munich",
+    "nameAr": "بايرن ميونخ",
+    "abbr": "MUN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "SC Paderborn 07",
+    "nameAr": null,
+    "abbr": "SCP",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Allianz Arena",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261204&limit=200"
+   }
+  },
+  {
+   "id": "espn-401874984",
+   "league": {
+    "slug": "ita.1",
+    "name": "Serie A",
+    "nameAr": "الدوري الإيطالي"
+   },
+   "kickoffUtc": "2026-12-04T19:45Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Bologna",
+    "nameAr": null,
+    "abbr": "BOL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "AS Roma",
+    "nameAr": null,
+    "abbr": "ROMA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Renato Dall'Ara",
+   "broadcasts": [
+    {
+     "media": "Paramount+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261204&limit=200"
+   }
+  },
+  {
+   "id": "espn-401876378",
+   "league": {
+    "slug": "fra.1",
+    "name": "Ligue 1",
+    "nameAr": "الدوري الفرنسي"
+   },
+   "kickoffUtc": "2026-12-04T19:45Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Toulouse",
+    "nameAr": null,
+    "abbr": "TOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Paris Saint-Germain",
+    "nameAr": "باريس سان جيرمان",
+    "abbr": "PSG",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stadium Municipal de Toulouse",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261204&limit=200"
+   }
+  },
+  {
+   "id": "espn-401882786",
+   "league": {
+    "slug": "esp.1",
+    "name": "La Liga",
+    "nameAr": "الدوري الإسباني"
+   },
+   "kickoffUtc": "2026-12-04T20:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Alavés",
+    "nameAr": null,
+    "abbr": "ALA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Espanyol",
+    "nameAr": "إسبانيول",
+    "abbr": "ESP",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Mendizorrotza",
+   "broadcasts": [
+    {
+     "media": "ESPN+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261204&limit=200"
    }
   }
  ]
