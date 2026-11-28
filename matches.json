@@ -1,5 +1,5 @@
 {
- "generatedAtUtc": "2026-11-27T14:08:19Z",
+ "generatedAtUtc": "2026-11-28T13:25:10Z",
  "windowDays": 8,
  "displayTimezone": "Africa/Cairo",
  "leagues": [
@@ -40,7 +40,7 @@
   }
  ],
  "counts": {
-  "matches": 64
+  "matches": 84
  },
  "notes": [
   "المعلق وجودة البث لا تعلنهما مصادر البيانات المدمجة (ESPN وTheSportsDB)، فيظهران كـ«غير معلن» بدل التخمين.",
@@ -50,263 +50,6 @@
  "errors": [],
  "matches": [
   {
-   "id": "espn-401884720",
-   "league": {
-    "slug": "ger.1",
-    "name": "Bundesliga",
-    "nameAr": "الدوري الألماني"
-   },
-   "kickoffUtc": "2026-11-27T19:30Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Werder Bremen",
-    "nameAr": null,
-    "abbr": "SVW",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Borussia Mönchengladbach",
-    "nameAr": null,
-    "abbr": "BMG",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Weserstadion",
-   "broadcasts": [
-    {
-     "media": "Fandango",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261127&limit=200"
-   }
-  },
-  {
-   "id": "espn-401875004",
-   "league": {
-    "slug": "ita.1",
-    "name": "Serie A",
-    "nameAr": "الدوري الإيطالي"
-   },
-   "kickoffUtc": "2026-11-27T19:45Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Venezia",
-    "nameAr": null,
-    "abbr": "VEN",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Bologna",
-    "nameAr": null,
-    "abbr": "BOL",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Stadio Pier Luigi Penzo",
-   "broadcasts": [
-    {
-     "media": "Paramount+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261127&limit=200"
-   }
-  },
-  {
-   "id": "espn-401876392",
-   "league": {
-    "slug": "fra.1",
-    "name": "Ligue 1",
-    "nameAr": "الدوري الفرنسي"
-   },
-   "kickoffUtc": "2026-11-27T19:45Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Brest",
-    "nameAr": null,
-    "abbr": "BRE",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Paris FC",
-    "nameAr": null,
-    "abbr": "PAR",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Stade Francis-Le Blé",
-   "broadcasts": [
-    {
-     "media": "beIn Sports",
-     "type": "TV",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261127&limit=200"
-   }
-  },
-  {
-   "id": "espn-401882791",
-   "league": {
-    "slug": "esp.1",
-    "name": "La Liga",
-    "nameAr": "الدوري الإسباني"
-   },
-   "kickoffUtc": "2026-11-27T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Levante",
-    "nameAr": "ليفانتي",
-    "abbr": "LEV",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Racing Santander",
-    "nameAr": null,
-    "abbr": "RAC",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "Estadi Ciutat de València",
-   "broadcasts": [
-    {
-     "media": "ESPN Deportes",
-     "type": "TV",
-     "region": "us",
-     "lang": "en"
-    },
-    {
-     "media": "ESPN+",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261127&limit=200"
-   }
-  },
-  {
-   "id": "espn-401879225",
-   "league": {
-    "slug": "eng.1",
-    "name": "Premier League",
-    "nameAr": "الدوري الإنجليزي الممتاز"
-   },
-   "kickoffUtc": "2026-11-27T20:00Z",
-   "status": {
-    "state": "pre",
-    "detail": "Scheduled",
-    "completed": false
-   },
-   "home": {
-    "name": "Nottingham Forest",
-    "nameAr": "نوتنغهام فورست",
-    "abbr": "NFO",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "away": {
-    "name": "Chelsea",
-    "nameAr": "تشيلسي",
-    "abbr": "CHE",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-    "score": "0",
-    "winner": false,
-    "favorite": false
-   },
-   "venue": "The City Ground",
-   "broadcasts": [
-    {
-     "media": "USA Net",
-     "type": "TV",
-     "region": "us",
-     "lang": "en"
-    },
-    {
-     "media": "Universo",
-     "type": "STREAMING",
-     "region": "us",
-     "lang": "en"
-    }
-   ],
-   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
-   "commentator": null,
-   "quality": null,
-   "lineups": null,
-   "source": {
-    "name": "ESPN",
-    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127&limit=200"
-   }
-  },
-  {
    "id": "espn-401882796",
    "league": {
     "slug": "esp.1",
@@ -315,8 +58,8 @@
    },
    "kickoffUtc": "2026-11-28T13:00Z",
    "status": {
-    "state": "pre",
-    "detail": "Scheduled",
+    "state": "in",
+    "detail": "20'",
     "completed": false
    },
    "home": {
@@ -355,7 +98,288 @@
    "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
    "commentator": null,
    "quality": null,
-   "lineups": null,
+   "lineups": {
+    "home": [
+     {
+      "name": "Álvaro Valles",
+      "position": "G",
+      "starter": true,
+      "shirt": "1"
+     },
+     {
+      "name": "Natan",
+      "position": "CD-L",
+      "starter": true,
+      "shirt": "4"
+     },
+     {
+      "name": "Marc Bartra",
+      "position": "CD-R",
+      "starter": true,
+      "shirt": "5"
+     },
+     {
+      "name": "Junior Firpo",
+      "position": "LB",
+      "starter": true,
+      "shirt": "23"
+     },
+     {
+      "name": "Héctor Bellerín",
+      "position": "RB",
+      "starter": true,
+      "shirt": "2"
+     },
+     {
+      "name": "Isco",
+      "position": "AM",
+      "starter": true,
+      "shirt": "22"
+     },
+     {
+      "name": "Marc Roca",
+      "position": "LM",
+      "starter": true,
+      "shirt": "21"
+     },
+     {
+      "name": "Pablo Fornals",
+      "position": "RM",
+      "starter": true,
+      "shirt": "8"
+     },
+     {
+      "name": "Cucho Hernández",
+      "position": "F",
+      "starter": true,
+      "shirt": "9"
+     },
+     {
+      "name": "Abde Ezzalzouli",
+      "position": "AM-L",
+      "starter": true,
+      "shirt": "10"
+     },
+     {
+      "name": "Antony",
+      "position": "AM-R",
+      "starter": true,
+      "shirt": "7"
+     },
+     {
+      "name": "Facundo Bernal",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "6"
+     },
+     {
+      "name": "Nelson Deossa",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "18"
+     },
+     {
+      "name": "Diego Conde",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "13"
+     },
+     {
+      "name": "Diego Llorente",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "3"
+     },
+     {
+      "name": "Ángel Ortiz",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "12"
+     },
+     {
+      "name": "Álvaro Fidalgo",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "15"
+     },
+     {
+      "name": "José Morante",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "27"
+     },
+     {
+      "name": "Fran García",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "11"
+     },
+     {
+      "name": "Aitor Ruibal",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "24"
+     },
+     {
+      "name": "Valentín Gómez",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "16"
+     },
+     {
+      "name": "Rodrigo Riquelme",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "17"
+     },
+     {
+      "name": "Troy Parrott",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "19"
+     }
+    ],
+    "away": [
+     {
+      "name": "Emil Audero",
+      "position": "G",
+      "starter": true,
+      "shirt": "25"
+     },
+     {
+      "name": "Pathé Ciss",
+      "position": "CD-L",
+      "starter": true,
+      "shirt": "6"
+     },
+     {
+      "name": "Florian Lejeune",
+      "position": "CD-R",
+      "starter": true,
+      "shirt": "24"
+     },
+     {
+      "name": "Adrià Pedrosa",
+      "position": "LB",
+      "starter": true,
+      "shirt": "17"
+     },
+     {
+      "name": "Andrei Ratiu",
+      "position": "RB",
+      "starter": true,
+      "shirt": "2"
+     },
+     {
+      "name": "Isi Palazón",
+      "position": "AM",
+      "starter": true,
+      "shirt": "7"
+     },
+     {
+      "name": "Unai López",
+      "position": "LM",
+      "starter": true,
+      "shirt": "8"
+     },
+     {
+      "name": "Gnangoro Bouare Samake",
+      "position": "RM",
+      "starter": true,
+      "shirt": "36"
+     },
+     {
+      "name": "Sergio Camello",
+      "position": "F",
+      "starter": true,
+      "shirt": "10"
+     },
+     {
+      "name": "Álvaro García",
+      "position": "AM-L",
+      "starter": true,
+      "shirt": "18"
+     },
+     {
+      "name": "Jorge de Frutos",
+      "position": "AM-R",
+      "starter": true,
+      "shirt": "19"
+     },
+     {
+      "name": "Mujaid Sadick",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "15"
+     },
+     {
+      "name": "Rayane Belaid",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "37"
+     },
+     {
+      "name": "Marash Kumbulla",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "3"
+     },
+     {
+      "name": "Iván Balliu",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "20"
+     },
+     {
+      "name": "Óscar Valentín",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "23"
+     },
+     {
+      "name": "Jozhua Vertrouwd",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "33"
+     },
+     {
+      "name": "Randy Nteka",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "11"
+     },
+     {
+      "name": "Pedro Díaz",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "4"
+     },
+     {
+      "name": "Alexandre Alemão",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "9"
+     },
+     {
+      "name": "Giorgi Tsitaishvili",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "14"
+     },
+     {
+      "name": "Daniel Cárdenas",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "1"
+     },
+     {
+      "name": "Fran Pérez",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "21"
+     }
+    ]
+   },
    "source": {
     "name": "ESPN",
     "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261128&limit=200"
@@ -404,7 +428,312 @@
    "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
    "commentator": null,
    "quality": null,
-   "lineups": null,
+   "lineups": {
+    "home": [
+     {
+      "name": "Lorenzo Palmisani",
+      "position": "G",
+      "starter": true,
+      "shirt": "22"
+     },
+     {
+      "name": "Giacomo Calo",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "14"
+     },
+     {
+      "name": "Wisdom Amey",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "5"
+     },
+     {
+      "name": "Gabriele Calvani",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "3"
+     },
+     {
+      "name": "Patrizio Masini",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "73"
+     },
+     {
+      "name": "Enzo Tchato",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "90"
+     },
+     {
+      "name": "Anthony Oyono",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "20"
+     },
+     {
+      "name": "Matteo Pisseri",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "12"
+     },
+     {
+      "name": "Aleksa Terzic",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "71"
+     },
+     {
+      "name": "Romano Schmid",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "10"
+     },
+     {
+      "name": "Tomas Bobcek",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "89"
+     },
+     {
+      "name": "Ilario Monterisi",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "30"
+     },
+     {
+      "name": "Kevin Akpoguma",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "25"
+     },
+     {
+      "name": "Seydou Fini",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "40"
+     },
+     {
+      "name": "Gabriele Bracaglia",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "79"
+     },
+     {
+      "name": "Sebastiano Desplanches",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "91"
+     },
+     {
+      "name": "Florian Grillitsch",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "27"
+     },
+     {
+      "name": "Matteo Cichella",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "16"
+     },
+     {
+      "name": "Giorgi Kvernadze",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "17"
+     },
+     {
+      "name": "Giorgio Cittadini",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "2"
+     },
+     {
+      "name": "Anouar El Azzouzi",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "34"
+     },
+     {
+      "name": "Farès Ghedjemis",
+      "position": "SUB",
+      "starter": true,
+      "shirt": "7"
+     },
+     {
+      "name": "Antonio Raimondo",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "9"
+     },
+     {
+      "name": "Omar Fayed",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "74"
+     },
+     {
+      "name": "Luis Hasa",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "70"
+     },
+     {
+      "name": "Alessio Zerbin",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "24"
+     }
+    ],
+    "away": [
+     {
+      "name": "Giovanni Daffara",
+      "position": "G",
+      "starter": true,
+      "shirt": "30"
+     },
+     {
+      "name": "Abdoulaye Ndiaye",
+      "position": "D",
+      "starter": true,
+      "shirt": "3"
+     },
+     {
+      "name": "Enrico Del Prato",
+      "position": "D",
+      "starter": true,
+      "shirt": "15"
+     },
+     {
+      "name": "Mariano Troilo",
+      "position": "D",
+      "starter": true,
+      "shirt": "37"
+     },
+     {
+      "name": "Benjamin Cremaschi",
+      "position": "M",
+      "starter": true,
+      "shirt": "8"
+     },
+     {
+      "name": "Giovanni Fabbian",
+      "position": "M",
+      "starter": true,
+      "shirt": "80"
+     },
+     {
+      "name": "Hans Nicolussi Caviglia",
+      "position": "M",
+      "starter": true,
+      "shirt": "41"
+     },
+     {
+      "name": "Franco Carboni",
+      "position": "M",
+      "starter": true,
+      "shirt": "29"
+     },
+     {
+      "name": "Mandela Keita",
+      "position": "M",
+      "starter": true,
+      "shirt": "16"
+     },
+     {
+      "name": "El Bilal Toure",
+      "position": "F",
+      "starter": true,
+      "shirt": "19"
+     },
+     {
+      "name": "Nesta Elphege",
+      "position": "F",
+      "starter": true,
+      "shirt": "23"
+     },
+     {
+      "name": "Matija Frigan",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "20"
+     },
+     {
+      "name": "Diego Carlos",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "34"
+     },
+     {
+      "name": "Christian Ordoñez",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "32"
+     },
+     {
+      "name": "Adrián Bernabé",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "10"
+     },
+     {
+      "name": "Emanuele Valeri",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "14"
+     },
+     {
+      "name": "Ousmane Diallo",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "7"
+     },
+     {
+      "name": "Vincent Sierro",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "4"
+     },
+     {
+      "name": "Simone Lontani",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "76"
+     },
+     {
+      "name": "Edoardo Corvi",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "40"
+     },
+     {
+      "name": "Sascha Britschgi",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "27"
+     },
+     {
+      "name": "Abdou-Salam Konate",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "47"
+     },
+     {
+      "name": "Pontus Almqvist",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "11"
+     },
+     {
+      "name": "Simone Ghidotti",
+      "position": "SUB",
+      "starter": false,
+      "shirt": "22"
+     }
+    ]
+   },
    "source": {
     "name": "ESPN",
     "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261128&limit=200"
@@ -3203,6 +3532,1105 @@
    "source": {
     "name": "ESPN",
     "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261204&limit=200"
+   }
+  },
+  {
+   "id": "espn-401879213",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-05T12:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Chelsea",
+    "nameAr": "تشيلسي",
+    "abbr": "CHE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Liverpool",
+    "nameAr": "ليفربول",
+    "abbr": "LIV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stamford Bridge",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401882780",
+   "league": {
+    "slug": "esp.1",
+    "name": "La Liga",
+    "nameAr": "الدوري الإسباني"
+   },
+   "kickoffUtc": "2026-12-05T13:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Racing Santander",
+    "nameAr": null,
+    "abbr": "RAC",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Deportivo",
+    "nameAr": null,
+    "abbr": "DEP",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "El Sardineros",
+   "broadcasts": [
+    {
+     "media": "ESPN+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401874975",
+   "league": {
+    "slug": "ita.1",
+    "name": "Serie A",
+    "nameAr": "الدوري الإيطالي"
+   },
+   "kickoffUtc": "2026-12-05T14:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Monza",
+    "nameAr": null,
+    "abbr": "MON",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Como",
+    "nameAr": null,
+    "abbr": "COMO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "U-Power Stadium",
+   "broadcasts": [
+    {
+     "media": "Paramount+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401884712",
+   "league": {
+    "slug": "ger.1",
+    "name": "Bundesliga",
+    "nameAr": "الدوري الألماني"
+   },
+   "kickoffUtc": "2026-12-05T14:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "1. FC Union Berlin",
+    "nameAr": null,
+    "abbr": "FCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Hamburg SV",
+    "nameAr": null,
+    "abbr": "HSV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stadion An der Alten Försterei",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401884716",
+   "league": {
+    "slug": "ger.1",
+    "name": "Bundesliga",
+    "nameAr": "الدوري الألماني"
+   },
+   "kickoffUtc": "2026-12-05T14:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Bayer Leverkusen",
+    "nameAr": "باير ليفركوزن",
+    "abbr": "B04",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Borussia Mönchengladbach",
+    "nameAr": null,
+    "abbr": "BMG",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "BayArena",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401884713",
+   "league": {
+    "slug": "ger.1",
+    "name": "Bundesliga",
+    "nameAr": "الدوري الألماني"
+   },
+   "kickoffUtc": "2026-12-05T14:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "FC Augsburg",
+    "nameAr": null,
+    "abbr": "FCA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "FC Cologne",
+    "nameAr": null,
+    "abbr": "KOE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "WWK Arena",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401884717",
+   "league": {
+    "slug": "ger.1",
+    "name": "Bundesliga",
+    "nameAr": "الدوري الألماني"
+   },
+   "kickoffUtc": "2026-12-05T14:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "RB Leipzig",
+    "nameAr": "لايبزيغ",
+    "abbr": "RBL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Mainz",
+    "nameAr": null,
+    "abbr": "M05",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Red Bull Arena",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401884715",
+   "league": {
+    "slug": "ger.1",
+    "name": "Bundesliga",
+    "nameAr": "الدوري الألماني"
+   },
+   "kickoffUtc": "2026-12-05T14:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "SC Freiburg",
+    "nameAr": null,
+    "abbr": "SCF",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "TSG Hoffenheim",
+    "nameAr": null,
+    "abbr": "TSG",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Europa-Park Stadion",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401879216",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-05T15:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "AFC Bournemouth",
+    "nameAr": null,
+    "abbr": "BOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Hull City",
+    "nameAr": null,
+    "abbr": "HUL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Vitality Stadium",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401879215",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-05T15:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Aston Villa",
+    "nameAr": "أستون فيلا",
+    "abbr": "AVL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Crystal Palace",
+    "nameAr": "كريستال بالاس",
+    "abbr": "CRY",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Villa Park",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401879211",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-05T15:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Leeds United",
+    "nameAr": "ليدز يونايتد",
+    "abbr": "LEE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Ipswich Town",
+    "nameAr": null,
+    "abbr": "IPS",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Elland Road",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401879210",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-05T15:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Manchester United",
+    "nameAr": "مانشستر يونايتد",
+    "abbr": "MAN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Coventry City",
+    "nameAr": null,
+    "abbr": "COV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Old Trafford",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401882779",
+   "league": {
+    "slug": "esp.1",
+    "name": "La Liga",
+    "nameAr": "الدوري الإسباني"
+   },
+   "kickoffUtc": "2026-12-05T15:15Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Rayo Vallecano",
+    "nameAr": "رايو فاليكانو",
+    "abbr": "RAY",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Levante",
+    "nameAr": "ليفانتي",
+    "abbr": "LEV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Estadio de Vallecas",
+   "broadcasts": [
+    {
+     "media": "ESPN+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401876384",
+   "league": {
+    "slug": "fra.1",
+    "name": "Ligue 1",
+    "nameAr": "الدوري الفرنسي"
+   },
+   "kickoffUtc": "2026-12-05T16:15Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Lille",
+    "nameAr": "ليل",
+    "abbr": "LILL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "AJ Auxerre",
+    "nameAr": null,
+    "abbr": "AUX",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401875023",
+   "league": {
+    "slug": "ita.1",
+    "name": "Serie A",
+    "nameAr": "الدوري الإيطالي"
+   },
+   "kickoffUtc": "2026-12-05T17:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Frosinone",
+    "nameAr": null,
+    "abbr": "FRO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Internazionale",
+    "nameAr": null,
+    "abbr": "INT",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stadio Benito Stirpe",
+   "broadcasts": [
+    {
+     "media": "Paramount+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401882777",
+   "league": {
+    "slug": "esp.1",
+    "name": "La Liga",
+    "nameAr": "الدوري الإسباني"
+   },
+   "kickoffUtc": "2026-12-05T17:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Villarreal",
+    "nameAr": "فياريال",
+    "abbr": "VIL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Real Sociedad",
+    "nameAr": "ريال سوسيداد",
+    "abbr": "RSO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Estadio de la Cerámica",
+   "broadcasts": [
+    {
+     "media": "ESPN+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401878747",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-05T17:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Nottingham Forest",
+    "nameAr": "نوتنغهام فورست",
+    "abbr": "NFO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Brighton & Hove Albion",
+    "nameAr": "برايتون",
+    "abbr": "BHA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "The City Ground",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401884714",
+   "league": {
+    "slug": "ger.1",
+    "name": "Bundesliga",
+    "nameAr": "الدوري الألماني"
+   },
+   "kickoffUtc": "2026-12-05T17:30Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Eintracht Frankfurt",
+    "nameAr": "آينتراخت فرانكفورت",
+    "abbr": "SGE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Werder Bremen",
+    "nameAr": null,
+    "abbr": "SVW",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Deutsche Bank Park",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401874788",
+   "league": {
+    "slug": "ita.1",
+    "name": "Serie A",
+    "nameAr": "الدوري الإيطالي"
+   },
+   "kickoffUtc": "2026-12-05T19:45Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Napoli",
+    "nameAr": "نابولي",
+    "abbr": "NAP",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Lecce",
+    "nameAr": null,
+    "abbr": "LEC",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stadio Diego Armando Maradona",
+   "broadcasts": [
+    {
+     "media": "Paramount+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401876382",
+   "league": {
+    "slug": "fra.1",
+    "name": "Ligue 1",
+    "nameAr": "الدوري الفرنسي"
+   },
+   "kickoffUtc": "2026-12-05T19:45Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "AS Monaco",
+    "nameAr": null,
+    "abbr": "MON",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Angers",
+    "nameAr": null,
+    "abbr": "ANG",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stade Louis II",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401876385",
+   "league": {
+    "slug": "fra.1",
+    "name": "Ligue 1",
+    "nameAr": "الدوري الفرنسي"
+   },
+   "kickoffUtc": "2026-12-05T19:45Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Lens",
+    "nameAr": null,
+    "abbr": "RCL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Le Havre AC",
+    "nameAr": null,
+    "abbr": "HAC",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stade Bollaert-Delelis",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401876381",
+   "league": {
+    "slug": "fra.1",
+    "name": "Ligue 1",
+    "nameAr": "الدوري الفرنسي"
+   },
+   "kickoffUtc": "2026-12-05T19:45Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Paris FC",
+    "nameAr": null,
+    "abbr": "PAR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Le Mans",
+    "nameAr": null,
+    "abbr": "MNS",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stade Jean Bouin",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401876379",
+   "league": {
+    "slug": "fra.1",
+    "name": "Ligue 1",
+    "nameAr": "الدوري الفرنسي"
+   },
+   "kickoffUtc": "2026-12-05T19:45Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Strasbourg",
+    "nameAr": null,
+    "abbr": "STR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Lorient",
+    "nameAr": null,
+    "abbr": "LOR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Stade de la Meinau",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401882783",
+   "league": {
+    "slug": "esp.1",
+    "name": "La Liga",
+    "nameAr": "الدوري الإسباني"
+   },
+   "kickoffUtc": "2026-12-05T20:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Barcelona",
+    "nameAr": "برشلونة",
+    "abbr": "BAR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "score": "0",
+    "winner": false,
+    "favorite": true
+   },
+   "away": {
+    "name": "Celta Vigo",
+    "nameAr": "سيلتا فيجو",
+    "abbr": "CEL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Spotify Camp Nou",
+   "broadcasts": [
+    {
+     "media": "ESPN+",
+     "type": "STREAMING",
+     "region": "us",
+     "lang": "en"
+    }
+   ],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261205&limit=200"
+   }
+  },
+  {
+   "id": "espn-401879214",
+   "league": {
+    "slug": "eng.1",
+    "name": "Premier League",
+    "nameAr": "الدوري الإنجليزي الممتاز"
+   },
+   "kickoffUtc": "2026-12-05T20:00Z",
+   "status": {
+    "state": "pre",
+    "detail": "Scheduled",
+    "completed": false
+   },
+   "home": {
+    "name": "Brentford",
+    "nameAr": "برينتفورد",
+    "abbr": "BRE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "away": {
+    "name": "Manchester City",
+    "nameAr": "مانشستر سيتي",
+    "abbr": "MNC",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "score": "0",
+    "winner": false,
+    "favorite": false
+   },
+   "venue": "Gtech Community Stadium",
+   "broadcasts": [],
+   "broadcastNote": "قنوات السوق الأمريكي كما يعلنها المصدر؛ الناقل في مصر والمنطقة العربية غير متاح من هذا المصدر.",
+   "commentator": null,
+   "quality": null,
+   "lineups": null,
+   "source": {
+    "name": "ESPN",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261205&limit=200"
    }
   }
  ]
